@@ -947,7 +947,7 @@
 	)
 	(wire
 		(pts
-			(xy 199.39 85.09) (xy 199.39 88.9)
+			(xy 199.39 82.55) (xy 199.39 88.9)
 		)
 		(stroke
 			(width 0)
@@ -957,27 +957,7 @@
 	)
 	(wire
 		(pts
-			(xy 190.5 100.33) (xy 194.31 100.33)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "054d38e7-6531-4a25-94b7-c555855b29eb")
-	)
-	(wire
-		(pts
-			(xy 212.09 101.6) (xy 214.63 101.6)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2d74c621-a48b-4e6f-807d-28ad3a903f32")
-	)
-	(wire
-		(pts
-			(xy 199.39 59.69) (xy 199.39 63.5)
+			(xy 199.39 57.15) (xy 199.39 63.5)
 		)
 		(stroke
 			(width 0)
@@ -987,27 +967,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 76.2) (xy 214.63 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ba38f8a1-27a4-48f6-b962-8d31061603f0")
-	)
-	(wire
-		(pts
-			(xy 190.5 76.2) (xy 194.31 76.2)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c7db9224-182a-4e87-b875-207073a72923")
-	)
-	(wire
-		(pts
-			(xy 177.8 83.82) (xy 177.8 87.63)
+			(xy 177.8 82.55) (xy 177.8 87.63)
 		)
 		(stroke
 			(width 0)
@@ -1017,7 +977,7 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 59.69) (xy 177.8 63.5)
+			(xy 177.8 57.15) (xy 177.8 63.5)
 		)
 		(stroke
 			(width 0)
@@ -1027,7 +987,7 @@
 	)
 	(global_label "RIGHT"
 		(shape input)
-		(at 214.63 76.2 0)
+		(at 199.39 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1037,7 +997,7 @@
 		)
 		(uuid "02124429-e3b8-4abf-a985-eba76517713a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 223.0581 76.2 0)
+			(at 199.39 48.7219 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1091,9 +1051,9 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "GND"
 		(shape input)
-		(at 199.39 59.69 90)
+		(at 190.5 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1101,31 +1061,9 @@
 			)
 			(justify left)
 		)
-		(uuid "5c0c08c2-4881-4501-9802-83a2826d8cfd")
+		(uuid "39842904-05cd-477a-85f1-6c7df91f67b7")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 53.0762 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 177.8 59.69 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "92644126-6d36-4b32-8416-74716165a6f5")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 53.0762 90)
+			(at 197.3557 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1157,9 +1095,9 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "GND"
 		(shape input)
-		(at 199.39 85.09 90)
+		(at 212.09 76.2 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1167,9 +1105,31 @@
 			)
 			(justify left)
 		)
-		(uuid "b0a872e7-d20a-4c5c-aec8-63c87dcf26dd")
+		(uuid "b11d73f8-929a-437b-863d-1a82046382da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.39 78.4762 90)
+			(at 218.9457 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GND"
+		(shape input)
+		(at 212.09 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "beab13b6-d73d-44e0-997f-efcc0d217205")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 218.9457 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1181,7 +1141,7 @@
 	)
 	(global_label "DOWN"
 		(shape input)
-		(at 194.31 100.33 0)
+		(at 177.8 82.55 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1191,29 +1151,7 @@
 		)
 		(uuid "bf195eb1-3654-48b3-8b6a-1659aedfb300")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 202.6776 100.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "VCC"
-		(shape input)
-		(at 177.8 83.82 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "d4e0db8a-5ac7-4fbc-92ae-7bcebfd1f151")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 177.8 77.2062 90)
+			(at 177.8 74.1824 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1245,9 +1183,9 @@
 			)
 		)
 	)
-	(global_label "VCC"
+	(global_label "GND"
 		(shape input)
-		(at 129.54 66.04 180)
+		(at 129.54 68.58 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1257,7 +1195,7 @@
 		)
 		(uuid "e542de33-b046-497c-88b7-4968b0e2eac1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 122.9262 66.04 0)
+			(at 122.6843 68.58 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1267,9 +1205,31 @@
 			)
 		)
 	)
+	(global_label "GND"
+		(shape input)
+		(at 190.5 76.2 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "e90c0cdc-d8ce-468b-b382-46cf3e7a707f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 197.3557 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "LEFT"
 		(shape input)
-		(at 214.63 101.6 0)
+		(at 199.39 82.55 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1279,7 +1239,7 @@
 		)
 		(uuid "ed65497b-2511-42d3-addb-c87d2ab73da4")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 221.8485 101.6 0)
+			(at 199.39 75.3315 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1291,7 +1251,7 @@
 	)
 	(global_label "UP"
 		(shape input)
-		(at 194.31 76.2 0)
+		(at 177.8 57.15 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1301,7 +1261,7 @@
 		)
 		(uuid "eeeafdfd-3f87-409e-a9c3-760ab0037e59")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 199.8957 76.2 0)
+			(at 177.8 51.5643 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1337,7 +1297,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
+		(property "Footprint" "ScottoKeebs_Choc:Choc_20x20mm"
 			(at 201.93 66.04 0)
 			(effects
 				(font
@@ -1405,7 +1365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
+		(property "Footprint" "ScottoKeebs_Choc:Choc_20x20mm"
 			(at 180.34 90.17 0)
 			(effects
 				(font
@@ -2079,7 +2039,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
+		(property "Footprint" "ScottoKeebs_Choc:Choc_20x20mm"
 			(at 180.34 66.04 0)
 			(effects
 				(font
@@ -2216,7 +2176,7 @@
 				)
 			)
 		)
-		(property "Footprint" "ScottoKeebs_Choc:Choc_V1"
+		(property "Footprint" "ScottoKeebs_Choc:Choc_20x20mm"
 			(at 201.93 91.44 0)
 			(effects
 				(font
