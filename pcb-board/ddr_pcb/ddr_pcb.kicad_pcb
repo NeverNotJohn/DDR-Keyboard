@@ -106,7 +106,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "2f32d6e8-d091-4b47-a974-b8df7e8e9b31")
-		(at 161 69.5 180)
+		(at 160.75 69.25 180)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S1"
@@ -211,45 +211,16 @@
 			(layer "F.SilkS")
 			(uuid "f9855ea3-6dca-497d-bf36-dbf02b3e844d")
 		)
-		(fp_line
-			(start 10 10)
-			(end 10 -10)
+		(fp_rect
+			(start -9.75 -9.75)
+			(end 9.75 9.75)
 			(stroke
 				(width 0.1)
-				(type solid)
+				(type default)
 			)
-			(layer "Dwgs.User")
-			(uuid "051bbfd6-63b7-4b4f-a2a4-6da6454bb360")
-		)
-		(fp_line
-			(start 10 -10)
-			(end -10 -10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "bfa23a38-4615-43b1-8944-d0b88f7273af")
-		)
-		(fp_line
-			(start -10 10)
-			(end 10 10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "c6365909-7056-43af-aa50-b22d69d86098")
-		)
-		(fp_line
-			(start -10 -10)
-			(end -10 10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "52c85d0c-c88b-4b22-8a41-3e1e473865ec")
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "58972195-bc25-4580-b068-61750e54dee6")
 		)
 		(fp_line
 			(start 7.25 7.25)
@@ -440,7 +411,7 @@
 	(footprint "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 		(layer "F.Cu")
 		(uuid "3082abea-7df0-46a8-bf60-31089325f995")
-		(at 139.75 84.25)
+		(at 140 83.5)
 		(descr "LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins")
 		(tags "LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins")
 		(property "Reference" "D4"
@@ -737,7 +708,7 @@
 	(footprint "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 		(layer "F.Cu")
 		(uuid "46f6c7f8-79ce-4369-bbbf-8665009a8fd6")
-		(at 159.75 64.25)
+		(at 159.5 64)
 		(descr "LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins")
 		(tags "LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins")
 		(property "Reference" "D1"
@@ -1034,7 +1005,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "831237ef-b1dd-4bec-9118-e46d4a549964")
-		(at 181 89.5 180)
+		(at 180.25 88.75 180)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S2"
@@ -1139,45 +1110,16 @@
 			(layer "F.SilkS")
 			(uuid "29621b66-4553-4164-8203-a8b6bc170825")
 		)
-		(fp_line
-			(start 10 10)
-			(end 10 -10)
+		(fp_rect
+			(start -9.75 -9.75)
+			(end 9.75 9.75)
 			(stroke
 				(width 0.1)
-				(type solid)
+				(type default)
 			)
-			(layer "Dwgs.User")
-			(uuid "3bbe4c05-1f0e-4a5b-b6a1-4b4c81731bf8")
-		)
-		(fp_line
-			(start 10 -10)
-			(end -10 -10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "77c7e6e3-804a-4769-b299-041003a0cc70")
-		)
-		(fp_line
-			(start -10 10)
-			(end 10 10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "8e8032e8-5523-467a-988e-c79d867a8ce6")
-		)
-		(fp_line
-			(start -10 -10)
-			(end -10 10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "13caf427-bbc1-437e-ac45-87787624e4a9")
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "0e00a779-bf97-45e0-8dc4-8be3524b7252")
 		)
 		(fp_line
 			(start 7.25 7.25)
@@ -1368,7 +1310,7 @@
 	(footprint "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 		(layer "F.Cu")
 		(uuid "8d5dda15-a043-44eb-b9cb-5e4d9e1edc48")
-		(at 179.75 84.25)
+		(at 179 83.5)
 		(descr "LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins")
 		(tags "LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins")
 		(property "Reference" "D2"
@@ -1665,7 +1607,7 @@
 	(footprint "LED_THT:LED_D1.8mm_W3.3mm_H2.4mm"
 		(layer "F.Cu")
 		(uuid "91131863-baa9-469d-aea1-3546d1ea7dec")
-		(at 159.75 104.25)
+		(at 159.5 103)
 		(descr "LED, Round,  Rectangular size 3.3x2.4mm^2 diameter 1.8mm, 2 pins")
 		(tags "LED Round  Rectangular size 3.3x2.4mm^2 diameter 1.8mm 2 pins")
 		(property "Reference" "D3"
@@ -1962,7 +1904,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "9854423c-2275-4200-b3ec-ba91bd81667d")
-		(at 161 109.5 180)
+		(at 160.75 108.25 180)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S3"
@@ -2067,45 +2009,16 @@
 			(layer "F.SilkS")
 			(uuid "55b1dba5-937c-4325-b573-2f2f029a75af")
 		)
-		(fp_line
-			(start 10 10)
-			(end 10 -10)
+		(fp_rect
+			(start -9.75 -9.75)
+			(end 9.75 9.75)
 			(stroke
 				(width 0.1)
-				(type solid)
+				(type default)
 			)
-			(layer "Dwgs.User")
-			(uuid "4bd9dd2c-b029-47af-885e-f47ad09c75e9")
-		)
-		(fp_line
-			(start 10 -10)
-			(end -10 -10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "3158bb13-650f-4814-a5eb-58e15025ec6e")
-		)
-		(fp_line
-			(start -10 10)
-			(end 10 10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "24e93e51-7286-4812-ae2f-f2f4bf892440")
-		)
-		(fp_line
-			(start -10 -10)
-			(end -10 10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "fbc3a894-1981-42c5-9151-a234bffc9bb9")
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "acc18da9-d88a-4c98-b604-a319ac386b29")
 		)
 		(fp_line
 			(start 7.25 7.25)
@@ -2296,7 +2209,7 @@
 	(footprint "ScottoKeebs_Choc:Choc_V1_1.00u"
 		(layer "F.Cu")
 		(uuid "f128dea1-0c96-46ba-a84a-b52e5a455aa2")
-		(at 141 89.5 180)
+		(at 141.25 88.75 180)
 		(descr "Choc keyswitch V1 CPG1350 V1 Keycap 1.00u")
 		(tags "Choc Keyswitch Switch CPG1350 V1 Cutout Keycap 1.00u")
 		(property "Reference" "S4"
@@ -2401,45 +2314,16 @@
 			(layer "F.SilkS")
 			(uuid "fc265c50-0006-48e2-abd6-29dc6f19dbaf")
 		)
-		(fp_line
-			(start 10 10)
-			(end 10 -10)
+		(fp_rect
+			(start -9.75 -9.75)
+			(end 9.75 9.75)
 			(stroke
 				(width 0.1)
-				(type solid)
+				(type default)
 			)
-			(layer "Dwgs.User")
-			(uuid "245434ca-08be-4928-b403-31ed4a2c90d6")
-		)
-		(fp_line
-			(start 10 -10)
-			(end -10 -10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "497aaac0-3e73-43ca-b882-491c0dc9bac0")
-		)
-		(fp_line
-			(start -10 10)
-			(end 10 10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "8d02956e-3d92-4998-9fb2-f617578bd29d")
-		)
-		(fp_line
-			(start -10 -10)
-			(end -10 10)
-			(stroke
-				(width 0.1)
-				(type solid)
-			)
-			(layer "Dwgs.User")
-			(uuid "c619f0ee-a9d7-4be7-9d17-854d67a0a891")
+			(fill none)
+			(layer "F.SilkS")
+			(uuid "c29ba0eb-2e78-4be0-ac1f-3885f9b51583")
 		)
 		(fp_line
 			(start 7.25 7.25)
@@ -2630,7 +2514,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "1b537364-985a-402b-9369-6794050afb54")
-		(at 170.5 104.55 -90)
+		(at 170.25 103.3 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R3"
@@ -2911,7 +2795,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "1b713d34-159c-44f0-836c-b88353b935bc")
-		(at 190.5 84.55 -90)
+		(at 170.63 83.42 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R2"
@@ -3192,7 +3076,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "300cc35d-7744-416c-b334-a35d2bf90ac9")
-		(at 170.5 64.55 -90)
+		(at 170.25 64.3 -90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R1"
@@ -3473,7 +3357,7 @@
 	(footprint "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal"
 		(layer "B.Cu")
 		(uuid "79a2a3e9-75ac-4677-ab2b-27dd33a745a1")
-		(at 150.5 94.71 90)
+		(at 150.75 93.96 90)
 		(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
 		(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
 		(property "Reference" "R4"
@@ -3754,7 +3638,7 @@
 	(footprint "ScottoKeebs_MCU:RP2040_Zero"
 		(layer "B.Cu")
 		(uuid "e3c98521-6d09-42cc-a192-fb9d6a1ef8e9")
-		(at 142 69.5 180)
+		(at 142 71.25 180)
 		(property "Reference" "U1"
 			(at 0 1.4 0)
 			(layer "B.SilkS")
@@ -4032,64 +3916,15 @@
 			)
 		)
 	)
-	(gr_line
-		(start 128 56.5)
-		(end 156 56.5)
+	(gr_rect
+		(start 131.5 59.5)
+		(end 190 118)
 		(stroke
 			(width 0.05)
 			(type default)
 		)
+		(fill none)
 		(layer "Edge.Cuts")
-		(uuid "129c74f3-134e-460c-bc2c-8d73d7350c89")
-	)
-	(gr_line
-		(start 128 122.5)
-		(end 128 56.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "46e5bc22-7c32-4849-8b90-caaa2ba47b98")
-	)
-	(gr_line
-		(start 194 56.5)
-		(end 194 122.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "56593fd1-f762-43c3-9bc0-c5c4ebf5720b")
-	)
-	(gr_line
-		(start 156 56.5)
-		(end 178 56.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "b7b88791-6a28-443a-9978-52fccd06eb7b")
-	)
-	(gr_line
-		(start 178 56.5)
-		(end 194 56.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "c1b04aca-87a9-4d82-b34e-18f05cfc4241")
-	)
-	(gr_line
-		(start 194 122.5)
-		(end 128 122.5)
-		(stroke
-			(width 0.05)
-			(type default)
-		)
-		(layer "Edge.Cuts")
-		(uuid "d7ef15c7-b750-42f1-811b-9fd8f11ab46f")
+		(uuid "e7a970f6-9d8c-46b0-b30d-c01551cb8d37")
 	)
 )
